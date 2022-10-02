@@ -18,7 +18,7 @@ int main()
     if(left==0 && right==0)
         cout<<"GREEN LIGHT "<<endl;
     if(left<=9 && right<=9)
-        cout<<"Ready For Go "<<endl;
+        cout<<"Ready For Go and YELLOW LIGHT "<<endl;
     if(left>9 && right>9)
         cout<<"RED LIGHT "<<endl;
 
